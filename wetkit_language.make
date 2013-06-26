@@ -9,7 +9,7 @@ projects[entity_translation][version] = 1.x-dev
 projects[entity_translation][type] = module
 projects[entity_translation][subdir] = contrib
 projects[entity_translation][download][type] = git
-projects[entity_translation][download][revision] = 50edb30
+projects[entity_translation][download][revision] = ba653e1
 projects[entity_translation][download][branch] = 7.x-1.x
 projects[entity_translation][patch][1516202] = http://drupal.org/files/translation-access-plugin-1516202-2.patch
 projects[entity_translation][patch][1925848] = http://drupal.org/files/entitytranslation-incorrect_pathauto_pattern-1925848-8.patch
@@ -25,7 +25,7 @@ projects[i18n][version] = 1.x-dev
 projects[i18n][type] = module
 projects[i18n][subdir] = contrib
 projects[i18n][download][type] = git
-projects[i18n][download][revision] = 3e290cd
+projects[i18n][download][revision] = c0738be
 projects[i18n][download][branch] = 7.x-1.x
 
 projects[i18nviews][version] = 3.x-dev
