@@ -16,10 +16,10 @@ function wetkit_language_strongarm() {
   $strongarm->name = 'entity_translation_settings_taxonomy_term__panopoly_categories';
   $strongarm->value = array(
     'default_language' => 'xx-et-default',
-    'hide_language_selector' => 0,
-    'exclude_language_none' => 0,
-    'lock_language' => 0,
-    'shared_fields_original_only' => 0,
+    'hide_language_selector' => 1,
+    'exclude_language_none' => 1,
+    'lock_language' => 1,
+    'shared_fields_original_only' => 1,
   );
   $export['entity_translation_settings_taxonomy_term__panopoly_categories'] = $strongarm;
 
@@ -29,10 +29,10 @@ function wetkit_language_strongarm() {
   $strongarm->name = 'entity_translation_settings_taxonomy_term__wetkit_categories';
   $strongarm->value = array(
     'default_language' => 'xx-et-default',
-    'hide_language_selector' => 0,
-    'exclude_language_none' => 0,
-    'lock_language' => 0,
-    'shared_fields_original_only' => 0,
+    'hide_language_selector' => 1,
+    'exclude_language_none' => 1,
+    'lock_language' => 1,
+    'shared_fields_original_only' => 1,
   );
   $export['entity_translation_settings_taxonomy_term__wetkit_categories'] = $strongarm;
 

@@ -30,6 +30,7 @@ dependencies[] = token
 dependencies[] = variable
 dependencies[] = variable_realm
 dependencies[] = variable_store
+dependencies[] = wetkit_i18n_panels
 features[ctools][] = strongarm:strongarm:1
 features[defaultconfig][] = strongarm:entity_translation_entity_types
 features[features_api][] = api:1
