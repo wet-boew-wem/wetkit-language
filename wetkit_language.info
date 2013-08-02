@@ -17,7 +17,6 @@ dependencies[] = i18n_node
 dependencies[] = i18n_path
 dependencies[] = i18n_redirect
 dependencies[] = i18n_string
-dependencies[] = i18n_sync
 dependencies[] = i18n_taxonomy
 dependencies[] = i18n_translation
 dependencies[] = i18n_variable
