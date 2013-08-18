@@ -27,6 +27,7 @@ projects[i18n][subdir] = contrib
 projects[i18n][download][type] = git
 projects[i18n][download][revision] = be701c4
 projects[i18n][download][branch] = 7.x-1.x
+projects[i18n][patch][1933690] = http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch
 
 projects[i18nviews][version] = 3.x-dev
 projects[i18nviews][type] = module

@@ -1,6 +1,6 @@
 WetKit Languages
-===============
-Integrates multilingual support via Internationalization for the WxT-Drupal distro
+================
+Integrates multilingual support via Internationalization for Drupal WEM.
 
 Key Features
 * Integration with i18n
@@ -9,5 +9,5 @@ Key Features
 * Language Switcher
 
 Important
-* This module integrates the work done in: http://drupal.org/sandbox/daspeter/1444130
-* This was needed to be included in this module in order to pass the D.O packager
+* Integrates the work done in: http://drupal.org/sandbox/daspeter/1444130
+* Some code inspired from http://thereisamoduleforthat.com/content/features-and-i18n-configuration-management-part-2-menu-item-madness
