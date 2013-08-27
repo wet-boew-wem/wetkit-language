@@ -1,5 +1,5 @@
-name = WetKit Multilingualism
-description = Core Feature: Installs a multilingual site for relying on i18n module
+name = WetKit Language
+description = Helps configure a multilingual site for Drupal WEM.
 core = 7.x
 package = WetKit
 php = 5.2.4
@@ -7,6 +7,7 @@ dependencies[] = ctools
 dependencies[] = defaultconfig
 dependencies[] = entity_translation
 dependencies[] = features
+dependencies[] = features_translations
 dependencies[] = l10n_client
 dependencies[] = i18n
 dependencies[] = i18n_block

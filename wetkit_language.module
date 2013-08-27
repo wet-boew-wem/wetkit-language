@@ -28,6 +28,8 @@ function wetkit_language_i18n_object_info_alter(&$info) {
 
 /**
  * Callback to load menu_link by UUID.
+ *
+ * @see http://thereisamoduleforthat.com/content/features-and-i18n-configuration-management-part-2-menu-item-madness
  */
 function wetkit_language_i18n_menu_link_uuid_load($uuid) {
  if (!empty($uuid)) {
@@ -50,7 +52,7 @@ function wetkit_language_i18n_menu_link_uuid_load($uuid) {
 /**
  * Implements hook_uuid_node_features_export_render_alter().
  *
- * @see https://drupal.org/node/2038963#comment-7637095
+ * @see http://drupal.org/node/2038963#comment-7637095
  */
 function wetkit_language_uuid_node_features_export_render_alter(&$export, $node, $module) {
   if (isset($export->translations->data)) {
