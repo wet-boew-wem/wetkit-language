@@ -172,6 +172,7 @@ function wetkit_language_strongarm() {
     'domain' => '',
     'prefix' => 'eng',
     'weight' => '0',
+    'javascript' => '',
   );
   $export['language_default'] = $strongarm;
 
