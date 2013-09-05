@@ -20,7 +20,7 @@ function wetkit_language_locale_default_languages() {
     'plurals' => 0,
     'formula' => '',
     'domain' => '',
-    'prefix' => 'eng',
+    'prefix' => 'en',
     'weight' => 0,
   );
   // Exported language: fr.
@@ -33,7 +33,7 @@ function wetkit_language_locale_default_languages() {
     'plurals' => 2,
     'formula' => '($n!=1)',
     'domain' => '',
-    'prefix' => 'fra',
+    'prefix' => 'fr',
     'weight' => 0,
   );
   return $languages;
