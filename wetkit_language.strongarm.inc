@@ -170,7 +170,7 @@ function wetkit_language_strongarm() {
     'plurals' => '0',
     'formula' => '',
     'domain' => '',
-    'prefix' => 'eng',
+    'prefix' => 'en',
     'weight' => '0',
     'javascript' => '',
   );
