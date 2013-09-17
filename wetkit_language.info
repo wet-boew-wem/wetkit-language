@@ -6,6 +6,7 @@ php = 5.2.4
 dependencies[] = ctools
 dependencies[] = defaultconfig
 dependencies[] = entity_translation
+dependencies[] = entity_translation_i18n_menu
 dependencies[] = features
 dependencies[] = features_translations
 dependencies[] = l10n_client
