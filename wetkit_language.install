@@ -17,3 +17,12 @@ function wetkit_language_uninstall() {
     }
   }
 }
+
+/**
+ * Implements hook_update_n().
+ */
+function wetkit_language_update_7101() {
+  if (!module_exists('entity_translation_i18n_menu')) {
+    module_enable('entity_translation_i18n_menu');
+  }
+}
