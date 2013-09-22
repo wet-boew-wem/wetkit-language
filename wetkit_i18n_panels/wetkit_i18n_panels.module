@@ -248,7 +248,6 @@ function i18n_ctools_render_alter(&$info, $page, $context) {
  * Implements hook_ctools_plugin_post_alter().
  *
  * Register some translatable configuration settings for plugins.
- *
  */
 function wetkit_i18n_panels_ctools_plugin_post_alter(&$plugin, $plugin_type_info) {
   if ($plugin_type_info['type'] == 'content_types') {
@@ -343,7 +342,7 @@ function wetkit_i18n_panels_i18n_string_list($group) {
 /**
  * Checks if the give display is exported or only stored in the db.
  *
- * @return boolean
+ * @return bool
  *   TRUE if the display is available from code.
  */
 function _18n_panels_is_exported_panels_display($display) {
@@ -364,7 +363,7 @@ function _18n_panels_is_exported_panels_display($display) {
  *
  * @todo I bet there are better ways to solve this mess.
  *
- * @param boolean $reset
+ * @param bool $reset
  *   Reset the static cache.
  *
  * @return array

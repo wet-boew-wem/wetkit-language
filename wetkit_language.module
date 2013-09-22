@@ -32,7 +32,7 @@ function wetkit_language_i18n_object_info_alter(&$info) {
  * @see http://thereisamoduleforthat.com/content/features-and-i18n-configuration-management-part-2-menu-item-madness
  */
 function wetkit_language_i18n_menu_link_uuid_load($uuid) {
- if (!empty($uuid)) {
+  if (!empty($uuid)) {
     $query = db_select('menu_links', 'ml');
     $query->leftJoin('menu_router', 'm', 'm.path = ml.router_path');
     $query->fields('ml');
@@ -64,7 +64,7 @@ function wetkit_language_uuid_node_features_export_render_alter(&$export, $node,
 }
 
 /**
- * Implements hook_query_TAG_alter() for `features_menu_link`.
+ * Implements hook_query_tag_alter().
  */
 function wetkit_language_query_features_menu_link_alter($query) {
   // Add missing attributes for translation.
