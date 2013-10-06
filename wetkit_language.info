@@ -1,5 +1,5 @@
 name = WetKit Language
-description = Helps configure a multilingual site for Drupal WEM.
+description = Helps configure a multilingual site for Drupal WxT.
 core = 7.x
 package = WetKit
 dependencies[] = ctools

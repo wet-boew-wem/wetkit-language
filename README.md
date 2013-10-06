@@ -1,6 +1,6 @@
 WetKit Languages
 ================
-Integrates multilingual support via Internationalization for Drupal WEM.
+Integrates multilingual support via Internationalization for Drupal WxT.
 
 Key Features
 * Bilingual tokens
