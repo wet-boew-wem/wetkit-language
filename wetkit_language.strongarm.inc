@@ -308,13 +308,13 @@ function wetkit_language_strongarm() {
     'language' => 'en',
     'name' => 'English',
     'native' => 'English',
-    'direction' => '0',
-    'enabled' => '1',
-    'plurals' => '0',
+    'direction' => 0,
+    'enabled' => 1,
+    'plurals' => 0,
     'formula' => '',
     'domain' => '',
     'prefix' => 'en',
-    'weight' => '0',
+    'weight' => 0,
     'javascript' => '',
   );
   $export['language_default'] = $strongarm;
@@ -479,7 +479,8 @@ function wetkit_language_strongarm() {
     22 => 'user_mail_status_blocked_[mail_part]',
     23 => 'user_mail_cancel_confirm_[mail_part]',
     24 => 'user_mail_status_canceled_[mail_part]',
-    25 => 'wetkit_metatag_creator',
+    25 => 'pathauto_ignore_words',
+    26 => 'wetkit_metatag_creator',
   );
   $export['variable_realm_list_language'] = $strongarm;
 
