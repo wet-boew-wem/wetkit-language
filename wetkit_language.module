@@ -23,6 +23,10 @@ function wetkit_language_i18n_object_info_alter(&$info) {
     // Use UUID field to identify menu_link.
     $info['menu_link']['key'] = 'uuid';
     $info['menu_link']['load callback'] = 'wetkit_language_i18n_menu_link_uuid_load';
+
+    // Use UUID field to identify taxonomy_term.
+    $info['taxonomy_term']['key'] = 'uuid';
+    $info['taxonomy_term']['load callback'] = 'wetkit_language_i18n_taxonomy_term_uuid_load';
   }
 }
 
@@ -47,6 +51,24 @@ function wetkit_language_i18n_menu_link_uuid_load($uuid) {
     }
   }
   return FALSE;
+}
+
+/**
+ * Callback to load taxonomy_term by UUID.
+ */
+function wetkit_language_i18n_taxonomy_term_uuid_load($uuid) {
+   //$nodes = node_load_multiple(array_keys($entities['node']));
+  if (!empty($uuid)) {
+    $query = new EntityFieldQuery();
+    $type = 'taxonomy_term';
+    $query->entityCondition('entity_type', $type)
+      ->propertyCondition('uuid', $uuid, '=')
+      ->range(0, 1);
+    if ($result = $query->execute()) {
+      $entities = entity_load($type, array_keys($result[$type]));
+      return i18n_translation_set_index($entities);
+    }
+  }
 }
 
 /**
