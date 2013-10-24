@@ -3,7 +3,7 @@
 api = 2
 core = 7.x
 
-; Tailor app for WetKit
+; Contrib
 
 projects[entity_translation][version] = 1.x-dev
 projects[entity_translation][type] = module
