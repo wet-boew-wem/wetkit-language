@@ -57,7 +57,6 @@ function wetkit_language_i18n_menu_link_uuid_load($uuid) {
  * Callback to load taxonomy_term by UUID.
  */
 function wetkit_language_i18n_taxonomy_term_uuid_load($uuid) {
-   //$nodes = node_load_multiple(array_keys($entities['node']));
   if (!empty($uuid)) {
     $query = new EntityFieldQuery();
     $type = 'taxonomy_term';
@@ -154,12 +153,8 @@ function wetkit_language_preprocess_maintenance_page(&$vars) {
  */
 function _wetkit_language_lang_switcher() {
   global $language;
-  $term = '';
-  $language_paths = '';
-  $language_terms = '';
 
   $path = drupal_is_front_page() ? '<front>' : $_GET['q'];
-
   $custom_links = language_negotiation_get_switch_links(LANGUAGE_TYPE_URL, $path);
 
   // Handle all languages.
