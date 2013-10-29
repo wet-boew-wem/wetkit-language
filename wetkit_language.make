@@ -57,3 +57,10 @@ projects[variable][subdir] = contrib
 projects[variable][download][type] = git
 projects[variable][download][revision] = d3fd458
 projects[variable][download][branch] = 7.x-2.x
+
+projects[webform_localization][version] = 4.x-dev
+projects[webform_localization][type] = module
+projects[webform_localization][subdir] = contrib
+projects[webform_localization][download][type] = git
+projects[webform_localization][download][revision] = 14de5a9
+projects[webform_localization][download][branch] = 7.x-4.x
