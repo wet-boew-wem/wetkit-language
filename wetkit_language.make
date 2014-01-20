@@ -7,7 +7,7 @@ core = 7.x
 
 projects[entity_translation][version] = 1.0-beta3
 projects[entity_translation][subdir] = contrib
-projects[entity_translation][patch][1866076] = http://drupalcode.org/project/entity_translation.git/patch/a4475e5c971ea738f80345a7b9248d8116d3bd5d
+projects[entity_translation][patch][1866076] = http://drupal.org/files/entity_translation-add_support_no_load_tokens-1866076-7.patch
 projects[entity_translation][patch][1516202] = http://drupal.org/files/translation-access-plugin-1516202-2.patch
 projects[entity_translation][patch][1925848] = http://drupal.org/files/entitytranslation-incorrect_pathauto_pattern-1925848-8.patch
 
