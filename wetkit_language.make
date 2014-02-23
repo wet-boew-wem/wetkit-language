@@ -51,5 +51,5 @@ projects[webform_localization][version] = 4.x-dev
 projects[webform_localization][type] = module
 projects[webform_localization][subdir] = contrib
 projects[webform_localization][download][type] = git
-projects[webform_localization][download][revision] = 899a92d
+projects[webform_localization][download][revision] = 385c401
 projects[webform_localization][download][branch] = 7.x-4.x
