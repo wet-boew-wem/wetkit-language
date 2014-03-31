@@ -63,6 +63,7 @@ features[variable][] = locale_language_providers_weight_language_content
 features[variable][] = pathauto_node_pattern
 features[variable][] = pathauto_node_wetkit_page_en_pattern
 features[variable][] = pathauto_node_wetkit_page_fr_pattern
+features[variable][] = pathauto_node_wetkit_page_pattern
 features[variable][] = pathauto_node_wetkit_page_und_pattern
 features[variable][] = translation_language_type
 features[variable][] = variable_realm_list_language
