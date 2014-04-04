@@ -11,7 +11,7 @@ projects[entity_translation][patch][1866076] = http://drupal.org/files/entity_tr
 projects[entity_translation][patch][1516202] = http://drupal.org/files/translation-access-plugin-1516202-2.patch
 projects[entity_translation][patch][1925848] = http://drupal.org/files/entitytranslation-incorrect_pathauto_pattern-1925848-8.patch
 
-projects[features_translations][version] = 1.0-beta2
+projects[features_translations][version] = 1.0-beta4
 projects[features_translations][subdir] = contrib
 
 projects[i18n][version] = 1.10
