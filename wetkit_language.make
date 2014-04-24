@@ -14,7 +14,7 @@ projects[entity_translation][patch][1925848] = http://drupal.org/files/entitytra
 projects[features_translations][version] = 1.0-beta4
 projects[features_translations][subdir] = contrib
 
-projects[i18n][version] = 1.10
+projects[i18n][version] = 1.11
 projects[i18n][subdir] = contrib
 
 projects[i18nviews][version] = 3.x-dev
