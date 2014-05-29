@@ -134,7 +134,7 @@ function wetkit_language_preprocess_page(&$vars) {
 function wetkit_language_preprocess_panels_pane(&$vars) {
   // Unset the language links from node display.
   if ($vars['pane']->type == 'node_links') {
-    if (isset($vars['content']['translation'])) {
+    if (is_array($vars['content']) && isset($vars['content']['translation'])) {
       unset($vars['content']['translation']);
     }
   }
