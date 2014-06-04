@@ -7,9 +7,13 @@ core = 7.x
 
 projects[entity_translation][version] = 1.0-beta3
 projects[entity_translation][subdir] = contrib
+projects[entity_translation][patch][1516202] = http://drupal.org/files/translation-access-plugin-1516202-4.patch
 projects[entity_translation][patch][1866076] = http://drupal.org/files/entity_translation-add_support_no_load_tokens-1866076-7.patch
-projects[entity_translation][patch][1516202] = http://drupal.org/files/translation-access-plugin-1516202-2.patch
-projects[entity_translation][patch][1925848] = http://drupal.org/files/entitytranslation-incorrect_pathauto_pattern-1925848-8.patch
+projects[entity_translation][patch][2055491] = http://drupal.org/files/et-sync_remove-2055491-1.patch
+projects[entity_translation][patch][1865244] = http://drupal.org/files/et-form_handlers-1865244-29.patch
+projects[entity_translation][patch][2072865] = http://drupal.org/files/entity_translation-delete-2072865-2.patch
+projects[entity_translation][patch][2027513] = http://drupal.org/files/et-2027513-nested-value-2.patch
+projects[entity_translation][patch][2130091] = http://drupal.org/files/issues/et-edit_tabs.patch
 
 projects[features_translations][version] = 1.0-beta4
 projects[features_translations][subdir] = contrib
