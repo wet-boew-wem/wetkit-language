@@ -22,6 +22,7 @@ dependencies[] = i18n_taxonomy
 dependencies[] = i18n_translation
 dependencies[] = i18n_variable
 dependencies[] = l10n_client
+dependencies[] = language_switch
 dependencies[] = locale
 dependencies[] = panels
 dependencies[] = stringoverrides

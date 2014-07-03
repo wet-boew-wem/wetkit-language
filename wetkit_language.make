@@ -31,6 +31,9 @@ projects[i18nviews][download][revision] = 26bd52c
 projects[i18nviews][download][branch] = 7.x-3.x
 projects[i18nviews][patch][1788832] = http://drupal.org/files/fixed-1788832-1.patch
 
+projects[language_switch][version] = 1.0-alpha2
+projects[language_switch][subdir] = contrib
+
 projects[l10n_client][version] = 1.3
 projects[l10n_client][subdir] = contrib
 
