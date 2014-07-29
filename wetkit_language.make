@@ -20,7 +20,7 @@ projects[features_translations][subdir] = contrib
 
 projects[i18n][version] = 1.11
 projects[i18n][subdir] = contrib
-projects[i18n][patch][2250501] = http://drupal.org/files/issues/i18n-node_edit-2250501-8.patch
+projects[i18n][patch][2250501] = http://drupal.org/files/issues/i18n-node_edit-2250501-31.patch
 projects[i18n][patch][2227523] = http://drupal.org/files/issues/i18n_string-2227523-20.patch
 
 projects[i18nviews][version] = 3.x-dev
