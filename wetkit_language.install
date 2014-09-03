@@ -37,3 +37,20 @@ function wetkit_language_update_7102() {
     module_enable(array('i18n_panels'));
   }
 }
+
+/**
+ * Implementations of hook_update_N().
+ */
+
+/**
+ * Enable new module for 2.x branch.
+ */
+function wetkit_language_update_7201() {
+  // Enable new module for 2.x  branch.
+  $modules = array('language_switch');
+  foreach ($modules as $module) {
+    if (!module_exists($module)) {
+      module_enable(array($module));
+    }
+  }
+}
