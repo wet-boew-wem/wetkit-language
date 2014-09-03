@@ -15,12 +15,12 @@ projects[entity_translation][patch][2072865] = http://drupal.org/files/entity_tr
 projects[entity_translation][patch][2027513] = http://drupal.org/files/et-2027513-nested-value-2.patch
 projects[entity_translation][patch][2130091] = http://drupal.org/files/issues/et-edit_tabs.patch
 
-projects[features_translations][version] = 1.0-beta4
+projects[features_translations][version] = 1.0
 projects[features_translations][subdir] = contrib
 
 projects[i18n][version] = 1.11
 projects[i18n][subdir] = contrib
-projects[i18n][patch][2250501] = http://drupal.org/files/issues/i18n-node_edit-2250501-8.patch
+projects[i18n][patch][2250501] = http://drupal.org/files/issues/i18n-node_edit-2250501-31.patch
 projects[i18n][patch][2227523] = http://drupal.org/files/issues/i18n_string-2227523-20.patch
 
 projects[i18nviews][version] = 3.x-dev
