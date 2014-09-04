@@ -89,7 +89,9 @@ function wetkit_language_uuid_node_features_export_render_alter(&$export, $node,
  */
 function wetkit_language_query_features_menu_link_alter($query) {
   // Add missing attributes for translation.
-  $query->fields('menu_links', array('uuid', 'language', 'customized'));
+  if (module_exists('entity_menu_links')) {
+    $query->fields('menu_links', array('uuid', 'language', 'customized'));
+  }
 }
 
 /**
