@@ -34,7 +34,7 @@ projects[i18nviews][patch][1788832] = http://drupal.org/files/fixed-1788832-1.pa
 projects[l10n_client][version] = 1.3
 projects[l10n_client][subdir] = contrib
 
-projects[l10n_update][version] = 1.0
+projects[l10n_update][version] = 1.1
 projects[l10n_update][subdir] = contrib
 
 projects[potx][version] = 1.0
