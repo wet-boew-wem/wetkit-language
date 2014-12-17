@@ -20,7 +20,10 @@ projects[features_translations][subdir] = contrib
 
 projects[i18n][version] = 1.11
 projects[i18n][subdir] = contrib
-projects[i18n][patch][2250501] = http://drupal.org/files/issues/i18n-node_edit-2250501-31.patch
+projects[i18n][patch][776146] = http://drupal.org/files/issues/i18n_strings-add-persistent-caching-776146-23.patch
+projects[i18n][patch][1169494] = http://drupal.org/files/issues/1169494-undefined-i18n_block-01.patch
+projects[i18n][patch][1940532] = http://drupal.org/files/issues/i18n-Missing_database_index_in_locales_source_for_textgroup_and_context-1940532-5.patch
+projects[i18n][patch][2250501] = http://drupal.org/files/issues/i18n-node_edit-2250501-8.patch
 projects[i18n][patch][2227523] = http://drupal.org/files/issues/i18n_string-2227523-20.patch
 
 projects[i18nviews][version] = 3.x-dev
