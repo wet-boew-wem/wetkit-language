@@ -43,10 +43,10 @@ function wetkit_language_update_7102() {
  */
 
 /**
- * Enable new module for 2.x branch.
+ * Enable new module for 4.x branch.
  */
-function wetkit_language_update_7201() {
-  // Enable new module for 2.x  branch.
+function wetkit_language_update_7401() {
+  // Enable new module for 4.x  branch.
   $modules = array('language_switch');
   foreach ($modules as $module) {
     if (!module_exists($module)) {
