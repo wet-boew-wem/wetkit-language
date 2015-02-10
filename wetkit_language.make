@@ -20,7 +20,6 @@ projects[features_translations][subdir] = contrib
 
 projects[i18n][version] = 1.12
 projects[i18n][subdir] = contrib
-projects[i18n][patch][776146] = http://drupal.org/files/issues/i18n_strings-add-persistent-caching-776146-23.patch
 
 projects[i18nviews][version] = 3.x-dev
 projects[i18nviews][type] = module
