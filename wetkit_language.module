@@ -19,7 +19,8 @@ function wetkit_language_form_alter(&$form, &$form_state, $form_id) {
  * Implements hook_i18n_object_info_alter().
  */
 function wetkit_language_i18n_object_info_alter(&$info) {
-  if (module_exists('wetkit_deployment')) {
+  $i18n_path = 'admin/structure/menu/*';
+  if (module_exists('wetkit_deployment') && !drupal_match_path(current_path(), $i18n_path)) {
     // Use UUID field to identify menu_link.
     $info['menu_link']['key'] = 'uuid';
     $info['menu_link']['load callback'] = 'wetkit_language_i18n_menu_link_uuid_load';
