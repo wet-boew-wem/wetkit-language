@@ -190,7 +190,7 @@ function _wetkit_language_lang_switcher() {
           $path = 'taxonomy/term/' . $language_terms[$lang->language]->tid;
         }
         $attributes = array('class' => array('link'), 'hreflang' => $lang->language, 'lang' => $lang->language);
-        $lang_switcher[] = l($modifier, $path, array('attributes' => $attributes, 'language' => $lang));
+        $lang_switcher[] = l($modifier, $path, array('attributes' => $attributes, 'language' => $lang, 'query' => drupal_get_query_parameters()));
       }
     }
     return implode('<br />', $lang_switcher);
