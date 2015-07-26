@@ -15,7 +15,7 @@ projects[entity_translation][patch][2072865] = http://drupal.org/files/entity_tr
 projects[entity_translation][patch][2027513] = http://drupal.org/files/et-2027513-nested-value-2.patch
 projects[entity_translation][patch][2130091] = http://drupal.org/files/issues/et-edit_tabs.patch
 
-projects[features_translations][version] = 1.0
+projects[features_translations][version] = 2.0
 projects[features_translations][subdir] = contrib
 
 projects[i18n][version] = 1.13
