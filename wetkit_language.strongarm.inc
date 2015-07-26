@@ -469,6 +469,7 @@ function wetkit_language_strongarm() {
     24 => 'user_mail_status_canceled_[mail_part]',
     25 => 'pathauto_ignore_words',
     26 => 'wetkit_metatag_creator',
+    27 => 'path_breadcrumbs_home_link_title',
   );
   $export['variable_realm_list_language'] = $strongarm;
 
