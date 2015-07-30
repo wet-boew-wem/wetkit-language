@@ -5,15 +5,14 @@ core = 7.x
 
 ; Contrib
 
-projects[entity_translation][version] = 1.0-beta3
+projects[entity_translation][version] = 1.0-beta4
 projects[entity_translation][subdir] = contrib
-projects[entity_translation][patch][1516202] = http://drupal.org/files/translation-access-plugin-1516202-4.patch
-projects[entity_translation][patch][1866076] = http://drupal.org/files/entity_translation-add_support_no_load_tokens-1866076-7.patch
-projects[entity_translation][patch][2055491] = http://drupal.org/files/et-sync_remove-2055491-1.patch
-projects[entity_translation][patch][1865244] = http://drupal.org/files/et-form_handlers-1865244-29.patch
-projects[entity_translation][patch][2072865] = http://drupal.org/files/entity_translation-delete-2072865-2.patch
-projects[entity_translation][patch][2027513] = http://drupal.org/files/et-2027513-nested-value-2.patch
-projects[entity_translation][patch][2130091] = http://drupal.org/files/issues/et-edit_tabs.patch
+projects[entity_translation][patch][1989084] = https://www.drupal.org/files/issues/entity_translation-fix-i18n-menu-item-validate-1989084-8.patch
+projects[entity_translation][patch][2166157] = https://www.drupal.org/files/issues/entity-translation-infinite-circular-reference-2166157-5.patch
+projects[entity_translation][patch][2203801] = https://www.drupal.org/files/issues/i18n_taxonomy_integration-2203801-5.patch
+projects[entity_translation][patch][2305547] = https://www.drupal.org/files/issues/entity_translation-more-defensive-code.patch
+projects[entity_translation][patch][2415189] = https://www.drupal.org/files/issues/entity_translation_2415189_0.patch
+projects[entity_translation][patch][2452279] = https://www.drupal.org/files/issues/entity_translation-duplicated-langcode-variable-edit-access.patch
 
 projects[features_translations][version] = 2.0
 projects[features_translations][subdir] = contrib
