@@ -24,9 +24,9 @@ projects[i18nviews][version] = 3.x-dev
 projects[i18nviews][type] = module
 projects[i18nviews][subdir] = contrib
 projects[i18nviews][download][type] = git
-projects[i18nviews][download][revision] = 26bd52c
+projects[i18nviews][download][revision] = fdc8c33
 projects[i18nviews][download][branch] = 7.x-3.x
-projects[i18nviews][patch][1788832] = http://drupal.org/files/fixed-1788832-1.patch
+projects[i18nviews][patch][1788832] = http://drupal.org/files/issues/transformed-contextual-filter-fix-178832-10.patch
 
 projects[language_switch][version] = 1.0-alpha2
 projects[language_switch][subdir] = contrib
