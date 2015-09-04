@@ -157,16 +157,17 @@ function wetkit_language_preprocess_maintenance_page(&$vars) {
 function _wetkit_language_lang_switcher() {
   global $language;
   $term = '';
-  $language_paths = '';
+  $language_nodes = '';
   $language_terms = '';
-
   $languages = language_list('enabled');
-  $path = drupal_is_front_page() ? '<front>' : $_GET['q'];
+
+  $data = array();
+  $data['path'] = drupal_is_front_page() ? '<front>' : $_GET['q'];
 
   // Handle node translations.
   if (arg(0) == 'node' && arg(1) > 0) {
     $node_path = 'node/' . arg(1);
-    $language_paths = translation_path_get_translations($node_path);
+    $language_nodes = translation_path_get_translations($node_path);
   }
 
   // Handle term translations.
@@ -177,23 +178,38 @@ function _wetkit_language_lang_switcher() {
 
   // Handle all languages.
   if (count($languages[1]) > 1) {
-    $lang_switcher = array();
     foreach ($languages[1] as $lang) {
       if ($lang->language != $language->language) {
-        $modifier = $lang->native;
+        $data[$lang->language]['modifier'] = $lang->native;
+
         // We are translating a node so will check if missing translations.
-        if ($language_paths && !empty($language_paths[$lang->language])) {
-          $path = $language_paths[$lang->language];
+        if ($language_nodes && !empty($language_nodes[$lang->language])) {
+          $data[$lang->language]['path'] = $language_nodes[$lang->language];
         }
         // We are translating a term.
         if ($term) {
-          $path = 'taxonomy/term/' . $language_terms[$lang->language]->tid;
+          $data[$lang->language]['path'] = 'taxonomy/term/' . $language_terms[$lang->language]->tid;
         }
-        $attributes = array('class' => array('link'), 'hreflang' => $lang->language, 'lang' => $lang->language);
-        $lang_switcher[] = l($modifier, $path, array('attributes' => $attributes, 'language' => $lang, 'query' => drupal_get_query_parameters()));
+
+        if (empty($data[$lang->language]['path'])) {
+          $data[$lang->language]['path'] = $data['path'];
+        }
+        $data[$lang->language]['attributes'] = array('class' => array('link'), 'hreflang' => $lang->language, 'lang' => $lang->language);
       }
     }
 
+    drupal_alter('wetkit_language_lang_switcher', $data);
+
+    if (empty($data['query'])) {
+      $data['query'] = drupal_get_query_parameters();
+    }
+
+    $lang_switcher = array();
+    foreach ($languages[1] as $lang) {
+      if ($lang->language != $language->language) {
+        $lang_switcher[] = l($data[$lang->language]['modifier'], $data[$lang->language]['path'], array('attributes' => $data[$lang->language]['attributes'], 'language' => $lang, 'query' => $data['query']));
+      }
+    }
     return implode('<br />', $lang_switcher);
   }
 }
