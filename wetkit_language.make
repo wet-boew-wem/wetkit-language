@@ -50,9 +50,5 @@ projects[title][download][branch] = 7.x-1.x
 projects[variable][version] = 2.5
 projects[variable][subdir] = contrib
 
-projects[webform_localization][version] = 4.x-dev
-projects[webform_localization][type] = module
+projects[webform_localization][version] = 7.x-4.0-alpha14
 projects[webform_localization][subdir] = contrib
-projects[webform_localization][download][type] = git
-projects[webform_localization][download][revision] = 5039efc
-projects[webform_localization][download][branch] = 7.x-4.x
