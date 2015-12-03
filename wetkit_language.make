@@ -33,6 +33,7 @@ projects[language_switch][subdir] = contrib
 
 projects[l10n_client][version] = 1.3
 projects[l10n_client][subdir] = contrib
+projects[l10n_client][patch][2191771] = http://drupal.org/files/issues/l10n_client-browser_is-2191771-17.patch
 
 projects[l10n_update][version] = 1.1
 projects[l10n_update][subdir] = contrib
