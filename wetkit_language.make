@@ -50,6 +50,7 @@ projects[title][subdir] = contrib
 projects[title][download][type] = git
 projects[title][download][revision] = 32e8016
 projects[title][download][branch] = 7.x-1.x
+projects[title][patch][2605040] = http://drupal.org/files/issues/title-removed-recursive-call-to-entity-get-info-2605040-5-d7.patch
 
 projects[variable][version] = 2.5
 projects[variable][subdir] = contrib
