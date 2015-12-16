@@ -57,4 +57,5 @@ projects[variable][subdir] = contrib
 
 projects[webform_localization][version] = 4.0-alpha14
 projects[webform_localization][subdir] = contrib
-projects[webform_localization][patch][2627812] = http://drupal.org/files/issues/undefined_index_nid-2627812-5_1.patch
+projects[webform_localization][patch][2627812] = http://drupal.org/files/issues/undefined_index_nid_in-2627812-2.patch
+projects[webform_localization][patch][2627813] = http://drupal.org/files/issues/undefined_index_nid-2627812-5_1.patch
