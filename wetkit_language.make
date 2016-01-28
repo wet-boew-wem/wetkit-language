@@ -20,12 +20,8 @@ projects[features_translations][subdir] = contrib
 projects[i18n][version] = 1.13
 projects[i18n][subdir] = contrib
 
-projects[i18nviews][version] = 3.x-dev
-projects[i18nviews][type] = module
+projects[i18nviews][version] = 3.0-alpha1
 projects[i18nviews][subdir] = contrib
-projects[i18nviews][download][type] = git
-projects[i18nviews][download][revision] = fdc8c33
-projects[i18nviews][download][branch] = 7.x-3.x
 projects[i18nviews][patch][1788832] = http://drupal.org/files/issues/transformed-contextual-filter-fix-178832-10.patch
 
 projects[language_switch][version] = 1.0-alpha2
