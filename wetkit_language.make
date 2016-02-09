@@ -19,6 +19,7 @@ projects[features_translations][subdir] = contrib
 
 projects[i18n][version] = 1.13
 projects[i18n][subdir] = contrib
+projects[i18n][patch][2338735] = http://drupal.org/files/issues/i18n_2338735_menu_rebuild.patch
 
 projects[i18nviews][version] = 3.0-alpha1
 projects[i18nviews][subdir] = contrib
