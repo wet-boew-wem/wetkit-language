@@ -11,6 +11,7 @@ projects[entity_translation][patch][1989084] = http://drupal.org/files/issues/en
 projects[entity_translation][patch][2166157] = http://drupal.org/files/issues/edit_draft-2557443-18.patch
 projects[entity_translation][patch][2203801] = http://drupal.org/files/issues/i18n_taxonomy_integration-2203801-5.patch
 projects[entity_translation][patch][2305547] = http://drupal.org/files/issues/entity_translation-more-defensive-code.patch
+projects[entity_translation][patch][2339315] = http://drupal.org/files/issues/entity_translation-prepopulate-form-state-2339315-8.patch
 projects[entity_translation][patch][2415189] = http://drupal.org/files/issues/entity_translation_2415189_0.patch
 projects[entity_translation][patch][2452279] = http://drupal.org/files/issues/entity_translation-duplicated-langcode-variable-edit-access.patch
 
