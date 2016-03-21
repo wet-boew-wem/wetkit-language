@@ -53,6 +53,5 @@ projects[title][patch][2605040] = http://drupal.org/files/issues/title-removed-r
 projects[variable][version] = 2.5
 projects[variable][subdir] = contrib
 
-projects[webform_localization][version] = 4.2
+projects[webform_localization][version] = 4.3
 projects[webform_localization][subdir] = contrib
-projects[webform_localization][patch][2627813] = http://drupal.org/files/issues/undefined_index_nid-2627812-5_1.patch
