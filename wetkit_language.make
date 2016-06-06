@@ -8,7 +8,7 @@ core = 7.x
 projects[entity_translation][version] = 1.0-beta5
 projects[entity_translation][subdir] = contrib
 projects[entity_translation][patch][2557429] = http://drupal.org/files/issues/static_cache_for-2557429-17.patch
-projects[entity_translation][patch][2734295] = http://drupal.org/files/issues/entity_translation-2734295-3.patch
+projects[entity_translation][patch][2734295] = http://drupal.org/files/issues/entity_translation-2734295-4.patch
 
 projects[features_translations][version] = 2.0
 projects[features_translations][subdir] = contrib
