@@ -42,5 +42,5 @@ projects[title][subdir] = contrib
 projects[variable][version] = 2.5
 projects[variable][subdir] = contrib
 
-projects[webform_localization][version] = 4.9
+projects[webform_localization][version] = 4.10
 projects[webform_localization][subdir] = contrib
