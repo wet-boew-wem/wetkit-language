@@ -36,7 +36,7 @@ projects[potx][subdir] = contrib
 projects[stringoverrides][version] = 1.8
 projects[stringoverrides][subdir] = contrib
 
-projects[title][version] = 1.0-alpha8
+projects[title][version] = 1.0-alpha9
 projects[title][subdir] = contrib
 
 projects[variable][version] = 2.5
