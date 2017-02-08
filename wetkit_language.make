@@ -13,7 +13,7 @@ projects[entity_translation][patch][2734295] = http://drupal.org/files/issues/en
 projects[features_translations][version] = 2.0
 projects[features_translations][subdir] = contrib
 
-projects[i18n][version] = 1.14
+projects[i18n][version] = 1.15
 projects[i18n][subdir] = contrib
 
 projects[i18nviews][version] = 3.0-alpha1
